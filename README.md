@@ -7,7 +7,7 @@ O objetivo é reconhecer tokens e estruturas sintáticas da linguagem, além de 
 ## Estrutura
 
 - `lexer/`: contém o analisador léxico (elgol_lexer.py)
-- `parser/`: conterá o analisador sintático (em construção)
+- `parser/`: conterá o analisador sintático (elgol_parser.py)
 - `tests/`: arquivos de teste para validar os analisadores
 
 ## Requisitos
