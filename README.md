@@ -19,3 +19,4 @@ O objetivo é reconhecer tokens e estruturas sintáticas da linguagem, além de 
 
 ```bash
 python -m lexer.tests.test_lexer
+python main.py
