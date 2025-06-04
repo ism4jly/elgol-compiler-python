@@ -1,0 +1,9 @@
+inteiro _Maior(inteiro A, inteiro B).
+inicio.
+    se A > B.
+        Resultado = A.
+    senao.
+        Resultado = B.
+    fim.
+elgio = Resultado.
+fim.

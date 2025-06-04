@@ -1,0 +1,4 @@
+inteiro _Soma(inteiro A, inteiro B).
+inicio.
+elgio = A + B.
+fim.
