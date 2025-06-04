@@ -1,4 +1,5 @@
-inteiro _Soma(inteiro A, inteiro B).
+inteiro _SomaTres(inteiro X, inteiro Y, inteiro Z).
 inicio.
-elgio = A + B.
+    Resultado = X + Y + Z.
+    elgio = Resultado.
 fim.

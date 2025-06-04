@@ -1,10 +1,11 @@
 from lexer.elgol_lexer import lexer
+from parser.elgol_parser import parser
 
 with open("examples/exemplo1.elgol", encoding="utf-8") as f:
     data = f.read()
 
-lexer.input(data)
+# Análise sintática
+resultado = parser.parse(data, lexer=lexer)
 
-print("Tokens encontrados:\n")
-for token in lexer:
-    print(f"{token.type:<15} -> {token.value}")
+print("\nÁrvore Sintática:\n")
+print(resultado)
